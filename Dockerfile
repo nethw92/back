@@ -1,4 +1,4 @@
-FROM openjdk:21-ea-3-jdk-slim
+FROM openjdk:11
 WORKDIR /src
 COPY . .
 RUN ./gradlew bootJar
